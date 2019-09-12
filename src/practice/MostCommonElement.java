@@ -16,24 +16,8 @@ public class MostCommonElement {
     	//   amount of times, return the larger number
     	// your input will always be greater than size 0
     	
-    	HashMap<Integer, Integer> countsMap = new HashMap<>();
     	
-    	for (int i : inputList) {
-    		if (!countsMap.containsKey(i)) {
-    			countsMap.put(i, 1);
-    		} else {
-    			countsMap.put(i, countsMap.get(i) + 1);
-    		}
-    	}
-    	
-    	int max = inputList.get(0);
-    	for (int i: countsMap.keySet()) {
-    		if (countsMap.get(max) < countsMap.get(i)) {
-    			max = i;
-    		}
-    	}
-    	
-    	return max;
+    	return 0;
     }
     
     public static void Checker() {

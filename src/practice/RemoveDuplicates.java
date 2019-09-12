@@ -15,10 +15,7 @@ public class RemoveDuplicates {
 		// remove all duplicates from the array
 		// make sure your final answer is sorted rom smallest to largest
 
-		HashSet<Integer> set = new HashSet<>(removeDups);
-		ArrayList<Integer> al = new ArrayList<>(set);
-		Collections.sort(al);
-		return al;
+		return null;
 	}
 
 	public static void Checker() {
