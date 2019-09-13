@@ -13,8 +13,8 @@ public class RemoveDuplicates {
 
 	public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> removeDups) {
 		// remove all duplicates from the array
-		// make sure your final answer is sorted rom smallest to largest
-
+		// make sure your final answer is sorted from smallest to largest
+		
 		return null;
 	}
 
